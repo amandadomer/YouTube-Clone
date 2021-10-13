@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "myyoutube",
+=======
+  "name": "youtube-clone",
+>>>>>>> 4d7d24129381071737baf322ba345020cfe97603
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -19,6 +23,10 @@
   "homepage": "https://github.com/amandadomer/YouTube-Clone#readme",
   "dependencies": {
     "express": "^4.17.1",
+<<<<<<< HEAD
+=======
+    "joi": "^17.4.2",
+>>>>>>> 4d7d24129381071737baf322ba345020cfe97603
     "mongoose": "^6.0.10",
     "nodemon": "^2.0.13"
   }
