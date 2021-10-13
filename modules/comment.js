@@ -31,7 +31,6 @@ function validateReply(reply) {
     return schema.validate(comment);
 }
 
-
 exports.Comment = Comment;
 exports.validateComment = validateComment;
 exports.Reply = Reply;
