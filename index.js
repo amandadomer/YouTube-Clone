@@ -4,3 +4,11 @@ const app = express();
 const comment = require('./routes/comments');
 
 connectDB();
+
+app.use(express.json());
+app.use('/api/comments', comment)
+
+const port = process.env.PORT || 5000;
+app.listen(port, () => {
+    console.log(`Server started on port: ${port}`);
+});
