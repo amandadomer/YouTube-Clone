@@ -25,12 +25,15 @@ function validateComment(comment) {
     });
     return schema.validate(comment);
 }
+
 function validateReply(reply) {
     const schema = Joi.object({
-        text: Joi.string(text).min(2).max(1000).required()
+        text: Joi.string().min(2).max(1000).required()
     });
     return schema.validate(reply);
 }
+
+
 
 exports.Comment = Comment;
 exports.validateComment = validateComment;
